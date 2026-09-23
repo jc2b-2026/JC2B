@@ -884,3 +884,130 @@ textarea:focus {
     display: none;
   }
 }
+
+/* Logo Paris-Saclay : plus lisible dans le header */
+.site-logo.partner-header-logo img {
+  width: 170px;
+  height: 70px;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 980px) {
+  .site-logo.partner-header-logo img {
+    width: 140px;
+    height: 58px;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-logo.partner-header-logo img {
+    width: 110px;
+    height: 46px;
+  }
+
+  /* Laisser la place au logo, aux langues et au menu */
+  .site-brand-group {
+    gap: 6px;
+  }
+
+  .site-logo:not(.partner-header-logo) img {
+    max-width: 72px;
+    height: 34px;
+  }
+
+  .nav-shell {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .nav-actions {
+    gap: 6px;
+  }
+
+  .lang-switch button {
+    min-width: 28px;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 44px;
+  }
+}
+
+/* Accueil plus compact */
+.home-hero-inner {
+  padding-top: 24px;
+  padding-bottom: 20px;
+  gap: 28px;
+}
+
+.home-title {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: 1.08;
+  margin: 14px 0;
+}
+
+.home-lead {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.hero-actions {
+  margin-top: 18px;
+}
+
+.brand-visual {
+  min-height: 320px;
+}
+
+.hero-logo-stage {
+  width: min(280px, 80%);
+  padding: 18px;
+}
+
+.hero-speakers-head {
+  margin-bottom: 14px;
+}
+
+.hero-speakers-banner .speaker-card {
+  padding: 18px;
+  gap: 16px;
+}
+
+/* Sur tablette et mobile, on évite le grand visuel
+   entre l’introduction et les intervenants */
+@media (max-width: 980px) {
+  .home-hero-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero-inner .brand-visual {
+    display: none;
+  }
+
+  .home-title {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+}
+
+.venue-map {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin: 22px 0 18px;
+  border: 0;
+  border-radius: 16px;
+  background: #fff;
+}
+
+@media (max-width: 640px) {
+  .venue-card {
+    padding: 22px;
+  }
+
+  .venue-map {
+    height: 250px;
+  }
+}

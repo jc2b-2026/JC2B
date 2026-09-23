@@ -9,9 +9,9 @@ const translations = {
     navContact: "Contact",
     register: "Register",
     editionLabel: "2026 edition",
-    homeEyebrow: "Junior Conference of Computational Biology · 2026",
-    homeTitleA: "Exploring biology,",
-    homeTitleB: "through data",
+    homeEyebrow: "JC2B 2026 · Université Paris-Saclay",
+    homeTitleA: "Junior Conference",
+    homeTitleB: "of Computational Biology",
     homeLead: "Organised by students from the Master 2 BIBS-IA programme at Université Paris-Saclay, JC2B brings together students and researchers to share their work in bioinformatics, biostatistics and artificial intelligence.",
     
     discoverScope: "Explore the scientific scope",
@@ -132,10 +132,13 @@ const translations = {
     practicalEyebrow: "Practical information",
     practicalTitle: "Getting to I2BC",
     practicalLead: "JC2B 2026 will take place at I2BC. The room, meeting point and directions will be announced here.",
+    
+    getDirections: "Get directions",
+
     venueTitle: "Venue",
     venueText: "I2BC · Paris-Saclay",
     accessTitle: "Access",
-    accessText: "Detailed public transport, walking and on-site access information will be added before the conference.",
+    accessText: "Use the “Get directions” button to plan your journey to the CNRS campus. You can choose your starting point and transport mode in Google Maps.",
     accessibilityTitle: "Accessibility",
     accessibilityText: "For questions about accessibility or specific access needs, please contact the organising team before the conference.",
     practicalStatus: "Detailed route information coming soon",
@@ -223,10 +226,10 @@ const translations = {
     navContact: "Contact",
     register: "S'inscrire",
     editionLabel: "Édition 2026",
-    homeEyebrow: "Junior Conference of Computational Biology · 2026",
+    homeEyebrow: "JC2B 2026 · Université Paris-Saclay",
     
-    homeTitleA: "Explorer le vivant",
-    homeTitleB: "par les données",
+    homeTitleA: "Junior Conference",
+    homeTitleB: "of Computational Biology",
     
     homeLead: "Organisée par les étudiants du Master 2 BIBS-IA de l’Université Paris-Saclay, la JC2B réunit étudiants et chercheurs pour partager leurs travaux en bioinformatique, biostatistiques et intelligence artificielle.",
     discoverScope: "Découvrir les thématiques scientifiques",
@@ -340,9 +343,11 @@ const translations = {
     practicalLead: "La JC2B 2026 se tiendra à l’I2BC. La salle, le point d’accueil et les indications d’accès seront précisés ici.",
     venueTitle: "Lieu",
     
+    getDirections: "Calculer mon itinéraire",
+
     venueText: "I2BC · Paris-Saclay",
     accessTitle: "Accès",
-    accessText: "Les informations détaillées de transport, de marche et d'accès au bâtiment seront ajoutées avant la conférence.",
+    accessText: "Utilisez le bouton « Calculer mon itinéraire » pour préparer votre trajet jusqu’au campus CNRS. Vous pourrez choisir votre point de départ et votre mode de transport dans Google Maps.",
     accessibilityTitle: "Accessibilité",
     accessibilityText: "Pour toute question sur l’accessibilité ou un besoin particulier, contactez l’équipe organisatrice avant la conférence.",
     practicalStatus: "Itinéraire détaillé à venir",
