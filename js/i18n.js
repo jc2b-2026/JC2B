@@ -161,9 +161,9 @@ const translations = {
     formSoonText: "When the form is ready, paste its URL in js/site-config.js. Every registration button on the site will update automatically.",
     openForm: "Open the registration form",
     formEmbedHint: "An embedded form can also appear here once an embed URL is configured.",
-    footerText: "Junior Conference of Computational Biology · Organised by students from Master 2 BIBS-IA · Université Paris-Saclay",
+    footerText: "Junior Conference on Computational Biology · Organised by students from Master 2 BIBS-IA · Université Paris-Saclay",
     footerPartner : "Our partners",
-    footerHost: "Junior Conference of Computational Biology",
+    footerHost: "Junior Conference on Computational Biology",
     // Form Translations (EN)
     noticeCapTitle: "Capacity Limit: 199 Attendees",
     noticeCapText: "Due to auditorium safety regulations, in-person attendance is strictly limited to 199 participants on a first-come, first-served basis.",
@@ -229,7 +229,7 @@ const translations = {
     homeEyebrow: "JC2B 2026 · Université Paris-Saclay",
     
     homeTitleA: "Junior Conference",
-    homeTitleB: "of Computational Biology",
+    homeTitleB: "on Computational Biology",
     
     homeLead: "Organisée par les étudiants du Master 2 BIBS-IA de l’Université Paris-Saclay, la JC2B réunit étudiants et chercheurs pour partager leurs travaux en bioinformatique, biostatistiques et intelligence artificielle.",
     discoverScope: "Découvrir les thématiques scientifiques",
@@ -370,9 +370,9 @@ const translations = {
     formSoonText: "Quand le formulaire sera prêt, collez son URL dans js/site-config.js. Tous les boutons d'inscription du site seront mis à jour automatiquement.",
     openForm: "Ouvrir le formulaire d'inscription",
     formEmbedHint: "Le formulaire pourra aussi être affiché directement ici lorsqu'une URL d'intégration sera configurée.",
-    footerText: "Junior Conference of Computational Biology · Organisée par les étudiants du Master 2 BIBS-IA · Université Paris-Saclay.",
+    footerText: "Junior Conference on Computational Biology · Organisée par les étudiants du Master 2 BIBS-IA · Université Paris-Saclay.",
     footerPartner : "Nos partenaires",
-    footerHost: "Junior Conference of Computational Biology",
+    footerHost: "Junior Conference on Computational Biology",
     // Form Translations (FR)
     noticeCapTitle: "Capacité d'accueil : 199 places",
     noticeCapText: "Pour des raisons de sécurité dans l'amphithéâtre, les inscriptions sont strictement limitées aux 199 premiers inscrits selon le principe du premier arrivé, premier servi.",
