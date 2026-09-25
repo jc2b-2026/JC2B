@@ -1014,7 +1014,7 @@ textarea:focus {
     height: 250px;
   }
 }
-/* Agrandir ces deux logos sans déplacer les autres */
+/* Agrandir ces deux logos sans déplacer les autres (: */
 .footer-secondary-logos img[src*="paris-saclay-university1609"] {
   transform: scale(1.3);
   transform-origin: left center;
