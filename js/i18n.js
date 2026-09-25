@@ -88,7 +88,7 @@ const translations = {
     topicLabel: "Presentation topic:",
     speaker1Topic: "No topic yet",
     speaker2Topic: "No topic yet",
-    speaker1Bio: "Head of the Computational Biology research group at the Max Planck Institute for Multidisciplinary Sciences. Pioneer in sequence comparison, homology detection and protein structure prediction (HH-suite, MMseqs2, ColabFold).",
+    speaker1Bio: "Head of the Computational Biology research group at the Max Planck Institute for Multidisciplinary Sciences. Pioneer in sequence comparison, homology detection and protein structure prediction (HHblits, HHpred, MMseqs2).",
     speaker2Bio: "CNRS researcher in the Bonsai bioinformatics team at CRIStAL, Université de Lille. Specialist in high-throughput sequencing data algorithms, k-mer indexing and compact data structures for genomics.",
     
     progInvited: "Invited talks",
@@ -301,7 +301,7 @@ const translations = {
     topicLabel: "Sujet de l'intervention :",
     speaker1Topic: "No topic yet",
     speaker2Topic: "No topic yet",
-    speaker1Bio: "Responsable du groupe de recherche en biologie computationnelle au Max Planck Institute for Multidisciplinary Sciences. Pionnier dans l'analyse de séquences de protéines, la détection d'homologie et la prédiction de structures (HH-suite, MMseqs2, ColabFold).",
+    speaker1Bio: "Responsable du groupe de recherche en biologie computationnelle au Max Planck Institute for Multidisciplinary Sciences. Pionnier dans l'analyse de séquences de protéines, la détection d'homologie et la prédiction de structures (HHblits, HHpred, MMseqs2).",
     speaker2Bio: "Chargé de recherche CNRS au sein de l'équipe de bioinformatique Bonsai au CRIStAL, Université de Lille. Spécialiste des algorithmes pour le séquençage à haut débit, de l'indexation de k-mers et des structures de données compactes pour la génomique.",
     progInvited: "Invitations d'intervenants",
     

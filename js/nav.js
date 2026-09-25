@@ -70,6 +70,16 @@
             <a class="footer-logo" href="index.html"><img src="images/logos/paris-saclay-university1609.jpg" alt="Paris Saclay" /></a>
             <a class="footer-logo" href="index.html"><img src="images/logos/logo-i2bc_black.png" alt="I2BC" /></a>
             <a class="footer-logo" href="index.html"><img src="images/logos/R.jpg" alt="Graduate" /></a>
+            <a class="footer-logo"
+              href="https://www.universite-paris-saclay.fr/objets-interdisciplinaires/living-machines-work"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="images/logos/logo-living-machine-at-work1.png"
+                alt="Living machines at work — Université Paris-Saclay"
+              />
+            </a>
           </div>
         </div>
 
