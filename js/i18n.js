@@ -11,7 +11,7 @@ const translations = {
     editionLabel: "2026 edition",
     homeEyebrow: "JC2B 2026 · Université Paris-Saclay",
     homeTitleA: "Junior Conference",
-    homeTitleB: "of Computational Biology",
+    homeTitleB: "on Computational Biology",
     homeLead: "Organised by students from the Master 2 BIBS-IA programme at Université Paris-Saclay, JC2B brings together students and researchers to share their work in bioinformatics, biostatistics and artificial intelligence.",
     
     discoverScope: "Explore the scientific scope",
