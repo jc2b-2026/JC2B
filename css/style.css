@@ -1024,3 +1024,32 @@ textarea:focus {
   transform: scale(1.3);
   transform-origin: center;
 }
+
+.venue-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  color: var(--navy);
+}
+
+.venue-link svg {
+  flex-shrink: 0;
+  color: var(--green);
+  transition: transform 0.2s ease;
+}
+
+.venue-link:hover strong {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.venue-link:hover svg {
+  transform: translateX(4px);
+}
+
+.venue-link:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
