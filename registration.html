@@ -397,16 +397,17 @@
 
       if (form) {
         form.addEventListener("submit", async (e) => {
-          if (wantsAbstract && wantsAbstract.checked) {
-          if (!formatOral.checked && !formatPoster.checked) {
-            formatError.style.display = "block";
-            formatOral.focus();
-            return; // stop form submission
-          } else {
-            formatError.style.display = "none";
-          }
-          }
           e.preventDefault();
+
+          if (wantsAbstract && wantsAbstract.checked) {
+            if (!formatOral.checked && !formatPoster.checked) {
+              formatError.style.display = "block";
+              formatOral.focus();
+              return; // stop form submission
+            } else {
+              formatError.style.display = "none";
+            }
+          }
           const isFr = document.documentElement.lang === "fr";
           submitBtn.disabled = true;
           submitBtn.innerText = isFr
