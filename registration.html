@@ -183,7 +183,6 @@
                     </div>
                   </div>
 
-                  <!-- Moved here: Discovery Source -->
                   <div class="form-group">
                     <label for="discovery">
                       <span data-i18n="labelDiscovery">How did you hear about this conference?</span>
@@ -206,6 +205,7 @@
                 <!-- 3. Abstract Submission -->
                 <fieldset class="form-section">
                   <legend data-i18n="formSection3">3. Call for Abstracts</legend>
+                  
                   <div class="checkbox-group">
                     <input type="checkbox" id="wantsAbstract" name="wants_abstract" value="yes" />
                     <label for="wantsAbstract">
@@ -223,14 +223,7 @@
                         decision.
                       </p>
                     </div>
-                    <div id="abstract-fields" class="conditional-block hidden">
-                    <div class="abstract-alert">
-                      <p data-i18n="abstractNotice">
-                        ℹ️ Selected abstracts will be considered for an oral talk or poster presentation. You will be
-                        contacted individually via email by the scientific committee regarding the final editorial
-                        decision.
-                      </p>
-                    </div>
+
                     <div class="form-group">
                       <label>
                         <span data-i18n="labelFormatPreference">Preferred Presentation Format</span>
@@ -250,6 +243,7 @@
                         Please select at least one format (oral, poster, or both).
                       </small>
                     </div>
+
                     <div class="form-group">
                       <label for="talkTitle">
                         <span data-i18n="labelTalkTitle">Presentation Title</span>
@@ -257,6 +251,7 @@
                       </label>
                       <input type="text" id="talkTitle" name="abstract_title" />
                     </div>
+
                     <div class="form-group">
                       <label for="talkAffiliation">
                         <span data-i18n="labelTalkAffiliation">Presentation Affiliation (Lab / Unit)</span>
@@ -264,6 +259,7 @@
                       </label>
                       <input type="text" id="talkAffiliation" name="abstract_affiliation" />
                     </div>
+
                     <div class="form-group">
                       <label for="abstractText">
                         <span data-i18n="labelAbstractText">Abstract (max 800 characters)</span>
@@ -277,6 +273,7 @@
                       </div>
                     </div>
                   </div>
+                </fieldset>
 
                 <!-- 4. Internship Opportunities -->
                 <fieldset class="form-section">
