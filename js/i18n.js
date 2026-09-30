@@ -125,7 +125,7 @@ const translations = {
     guidelineLanguage: "Working language: English",
     guidelineScope: "Contribution must fit the JC2B scientific scope",
     guidelinePresence: "At least one author should attend if the contribution is selected",
-    guidelineFinal: "The registration form currently accepts abstracts of up to 500 characters, including spaces.",
+    guidelineFinal: "The registration form currently accepts abstracts of up to 800 characters.",
     
     acceptedTitle: "Accepted abstracts",
     acceptedText: "Information about accepted contributions will be published after the selection process.",
@@ -203,7 +203,7 @@ const translations = {
     abstractNotice: "ℹ️ Selected abstracts will be considered for an oral talk or poster presentation. You will be contacted individually via email by the scientific committee regarding the final editorial decision.",
     labelTalkTitle: "Presentation Title",
     labelTalkAffiliation: "Presentation Affiliation (Lab / Unit)",
-    labelAbstractText: "Abstract (max 500 characters)",
+    labelAbstractText: "Abstract (max 800 characters)",
     charCounterLabel: "characters",
     formSection4: "4. Internship Opportunities",
     labelOffersInternship: "Would you like to offer an internship opportunity to JC2B participants (M1 or M2)?",
@@ -221,6 +221,10 @@ const translations = {
     btnSubmit: "Submit Registration",
     btnSubmitting: "Submitting registration...",
     errDuplicateEmail: "This email address is already registered. If you need to make changes to your registration, please contact the committee.",
+    labelFormatPreference: "Preferred Presentation Format",
+    formatOralLabel: "Oral Presentation",
+    formatPosterLabel: "Poster Presentation",
+    formatErrorMsg: "Please select at least one format (oral, poster, or both)."
   },
   fr: {
     navHome: "Accueil",
@@ -341,7 +345,7 @@ const translations = {
     guidelineLanguage: "Langue de travail : anglais",
     guidelineScope: "La contribution doit correspondre aux thématiques scientifiques de la JC2B",
     guidelinePresence: "Au moins un auteur doit être présent si la contribution est sélectionnée",
-    guidelineFinal: "Le formulaire accepte actuellement les résumés de 500 caractères maximum, espaces compris.",
+    guidelineFinal: "Le formulaire accepte actuellement les résumés de 800 caractères maximum.",
     acceptedTitle: "Résumés acceptés",
     acceptedText: "Les informations sur les contributions retenues seront publiées après la sélection",
     acceptedPlaceholder: "Contributions retenues : à venir.",
@@ -419,7 +423,7 @@ const translations = {
     abstractNotice: "ℹ️ Les résumés retenus feront l'objet d'une présentation orale ou d'un poster. Vous serez contacté(e) personnellement par le comité avec la décision finale.",
     labelTalkTitle: "Titre de la présentation",
     labelTalkAffiliation: "Affiliation pour la présentation (Labo / Unité)",
-    labelAbstractText: "Résumé (max 500 caractères)",
+    labelAbstractText: "Résumé (max 800 caractères)",
     charCounterLabel: "caractères",
     formSection4: "4. Offres de stage",
     labelOffersInternship: "Souhaitez-vous proposer une offre de stage aux participants de la JC2B (M1 ou M2) ?",
@@ -437,6 +441,10 @@ const translations = {
     btnSubmit: "Valider mon inscription",
     btnSubmitting: "Envoi en cours...",
     errDuplicateEmail: "Cette adresse email est déjà inscrite. Si vous souhaitez modifier votre inscription, merci de contacter le comité d'organisation.",
+    labelFormatPreference: "Format de présentation souhaité",
+    formatOralLabel: "Présentation orale",
+    formatPosterLabel: "Poster",
+    formatErrorMsg: "Veuillez sélectionner au moins un format (orale, poster, ou les deux)."
   }
 };
 
