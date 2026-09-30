@@ -15,6 +15,7 @@ const translations = {
     homeLead: "Organised by students from the Master 2 BIBS-IA programme at Université Paris-Saclay, JC2B brings together students and researchers to share their work in bioinformatics, biostatistics and artificial intelligence.",
     
     discoverScope: "Explore the scientific scope",
+    registerlabel: "Registration is open until October 18 at 11:59 p.m.",
     
     snapshotLabel: "Conference snapshot",
     snapshotDate: "Date",
@@ -166,6 +167,8 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (EN)
     noticeCapTitle: "Capacity Limit: 199 Attendees",
+    registrationdeadline: "Registration deadline : 18 October 2026, 11:59 p.m.",
+    registrationdeadlinetext: "Don't forget to register before that date so you can attend the conference.",
     noticeCapText: "Due to auditorium safety regulations, in-person attendance is strictly limited to 199 participants on a first-come, first-served basis.",
     formSection1: "1. Personal Details",
     labelFullName: "Full Name",
@@ -236,6 +239,8 @@ const translations = {
     
     homeLead: "Organisée par les étudiants du Master 2 BIBS-IA de l’Université Paris-Saclay, la JC2B réunit étudiants et chercheurs pour partager leurs travaux en bioinformatique, biostatistiques et intelligence artificielle.",
     discoverScope: "Découvrir les thématiques scientifiques",
+    registerlabel: "Inscription ouverte jusqu'au 18 octobre à 23h59",
+    
     snapshotLabel: "La conférence en bref",
     snapshotDate: "Date",
     snapshotVenue: "Lieu",
@@ -378,6 +383,8 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (FR)
     noticeCapTitle: "Capacité d'accueil : 199 places",
+    registrationdeadline: "Date limite d'inscription : 18 Octobre 2026, 23h59",
+    registrationdeadlinetext: "N'oubliez pas de vous inscrire avant cette date pour pouvoir participer à la conférence.",
     noticeCapText: "Pour des raisons de sécurité dans l'amphithéâtre, les inscriptions sont strictement limitées aux 199 premiers inscrits selon le principe du premier arrivé, premier servi.",
     formSection1: "1. Informations personnelles",
     labelFullName: "Nom et Prénom",
