@@ -15,6 +15,7 @@ const translations = {
     homeLead: "Organised by students from the Master 2 BIBS-IA programme at Université Paris-Saclay, JC2B brings together students and researchers to share their work in bioinformatics, biostatistics and artificial intelligence.",
     
     discoverScope: "Explore the scientific scope",
+    registerlabel: "Registration is open until October 18 at 11:59 p.m.",
     
     snapshotLabel: "Conference snapshot",
     snapshotDate: "Date",
@@ -124,7 +125,7 @@ const translations = {
     guidelineLanguage: "Working language: English",
     guidelineScope: "Contribution must fit the JC2B scientific scope",
     guidelinePresence: "At least one author should attend if the contribution is selected",
-    guidelineFinal: "The registration form currently accepts abstracts of up to 500 characters, including spaces.",
+    guidelineFinal: "The registration form currently accepts abstracts of up to 800 characters.",
     
     acceptedTitle: "Accepted abstracts",
     acceptedText: "Information about accepted contributions will be published after the selection process.",
@@ -166,6 +167,8 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (EN)
     noticeCapTitle: "Capacity Limit: 199 Attendees",
+    registrationdeadline: "Registration deadline : 18 October 2026, 11:59 p.m.",
+    registrationdeadlinetext: "Don't forget to register before that date so you can attend the conference.",
     noticeCapText: "Due to auditorium safety regulations, in-person attendance is strictly limited to 199 participants on a first-come, first-served basis.",
     formSection1: "1. Personal Details",
     labelFullName: "Full Name",
@@ -200,7 +203,7 @@ const translations = {
     abstractNotice: "ℹ️ Selected abstracts will be considered for an oral talk or poster presentation. You will be contacted individually via email by the scientific committee regarding the final editorial decision.",
     labelTalkTitle: "Presentation Title",
     labelTalkAffiliation: "Presentation Affiliation (Lab / Unit)",
-    labelAbstractText: "Abstract (max 500 characters)",
+    labelAbstractText: "Abstract (max 800 characters)",
     charCounterLabel: "characters",
     formSection4: "4. Internship Opportunities",
     labelOffersInternship: "Would you like to offer an internship opportunity to JC2B participants (M1 or M2)?",
@@ -218,6 +221,10 @@ const translations = {
     btnSubmit: "Submit Registration",
     btnSubmitting: "Submitting registration...",
     errDuplicateEmail: "This email address is already registered. If you need to make changes to your registration, please contact the committee.",
+    labelFormatPreference: "Preferred Presentation Format",
+    formatOralLabel: "Oral Presentation",
+    formatPosterLabel: "Poster Presentation",
+    formatErrorMsg: "Please select at least one format (oral, poster, or both)."
   },
   fr: {
     navHome: "Accueil",
@@ -236,6 +243,8 @@ const translations = {
     
     homeLead: "Organisée par les étudiants du Master 2 BIBS-IA de l’Université Paris-Saclay, la JC2B réunit étudiants et chercheurs pour partager leurs travaux en bioinformatique, biostatistiques et intelligence artificielle.",
     discoverScope: "Découvrir les thématiques scientifiques",
+    registerlabel: "Inscription ouverte jusqu'au 18 octobre à 23h59",
+    
     snapshotLabel: "La conférence en bref",
     snapshotDate: "Date",
     snapshotVenue: "Lieu",
@@ -336,7 +345,7 @@ const translations = {
     guidelineLanguage: "Langue de travail : anglais",
     guidelineScope: "La contribution doit correspondre aux thématiques scientifiques de la JC2B",
     guidelinePresence: "Au moins un auteur doit être présent si la contribution est sélectionnée",
-    guidelineFinal: "Le formulaire accepte actuellement les résumés de 500 caractères maximum, espaces compris.",
+    guidelineFinal: "Le formulaire accepte actuellement les résumés de 800 caractères maximum.",
     acceptedTitle: "Résumés acceptés",
     acceptedText: "Les informations sur les contributions retenues seront publiées après la sélection",
     acceptedPlaceholder: "Contributions retenues : à venir.",
@@ -378,6 +387,8 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (FR)
     noticeCapTitle: "Capacité d'accueil : 199 places",
+    registrationdeadline: "Date limite d'inscription : 18 Octobre 2026, 23h59",
+    registrationdeadlinetext: "N'oubliez pas de vous inscrire avant cette date pour pouvoir participer à la conférence.",
     noticeCapText: "Pour des raisons de sécurité dans l'amphithéâtre, les inscriptions sont strictement limitées aux 199 premiers inscrits selon le principe du premier arrivé, premier servi.",
     formSection1: "1. Informations personnelles",
     labelFullName: "Nom et Prénom",
@@ -412,7 +423,7 @@ const translations = {
     abstractNotice: "ℹ️ Les résumés retenus feront l'objet d'une présentation orale ou d'un poster. Vous serez contacté(e) personnellement par le comité avec la décision finale.",
     labelTalkTitle: "Titre de la présentation",
     labelTalkAffiliation: "Affiliation pour la présentation (Labo / Unité)",
-    labelAbstractText: "Résumé (max 500 caractères)",
+    labelAbstractText: "Résumé (max 800 caractères)",
     charCounterLabel: "caractères",
     formSection4: "4. Offres de stage",
     labelOffersInternship: "Souhaitez-vous proposer une offre de stage aux participants de la JC2B (M1 ou M2) ?",
@@ -430,6 +441,10 @@ const translations = {
     btnSubmit: "Valider mon inscription",
     btnSubmitting: "Envoi en cours...",
     errDuplicateEmail: "Cette adresse email est déjà inscrite. Si vous souhaitez modifier votre inscription, merci de contacter le comité d'organisation.",
+    labelFormatPreference: "Format de présentation souhaité",
+    formatOralLabel: "Présentation orale",
+    formatPosterLabel: "Poster",
+    formatErrorMsg: "Veuillez sélectionner au moins un format (orale, poster, ou les deux)."
   }
 };
 

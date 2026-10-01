@@ -51,6 +51,17 @@
       <!-- Main Form Section -->
       <section class="section">
         <div class="container">
+          
+          <div class="notice-card" style="margin-bottom: 2rem">
+            <div class="notice-icon">⚠️</div>
+            <div class="notice-body">
+              <h2 data-i18n="registrationdeadline">Registration deadline : 18 October 2026, 23:59 p.m.</h2>
+              <p data-i18n="registrationdeadlinetext">
+                Don't forget to register before to guarentee your participation
+              </p>
+            </div>
+          </div>
+          
           <!-- Attendance Notice -->
           <div class="notice-card" style="margin-bottom: 2rem">
             <div class="notice-icon">⚠️</div>
@@ -172,7 +183,6 @@
                     </div>
                   </div>
 
-                  <!-- Moved here: Discovery Source -->
                   <div class="form-group">
                     <label for="discovery">
                       <span data-i18n="labelDiscovery">How did you hear about this conference?</span>
@@ -195,6 +205,7 @@
                 <!-- 3. Abstract Submission -->
                 <fieldset class="form-section">
                   <legend data-i18n="formSection3">3. Call for Abstracts</legend>
+                  
                   <div class="checkbox-group">
                     <input type="checkbox" id="wantsAbstract" name="wants_abstract" value="yes" />
                     <label for="wantsAbstract">
@@ -212,6 +223,27 @@
                         decision.
                       </p>
                     </div>
+
+                    <div class="form-group">
+                      <label>
+                        <span data-i18n="labelFormatPreference">Preferred Presentation Format</span>
+                        <span class="req">*</span>
+                      </label>
+                      <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px;">
+                        <div class="checkbox-group" style="margin-top: 0;">
+                          <input type="checkbox" id="formatOral" name="format_oral" value="yes" />
+                          <label for="formatOral" data-i18n="formatOralLabel">Oral Presentation</label>
+                        </div>
+                        <div class="checkbox-group" style="margin-top: 0;">
+                          <input type="checkbox" id="formatPoster" name="format_poster" value="yes" />
+                          <label for="formatPoster" data-i18n="formatPosterLabel">Poster Presentation</label>
+                        </div>
+                      </div>
+                      <small id="formatError" style="color: #d9381e; display: none;" data-i18n="formatErrorMsg">
+                        Please select at least one format (oral, poster, or both).
+                      </small>
+                    </div>
+
                     <div class="form-group">
                       <label for="talkTitle">
                         <span data-i18n="labelTalkTitle">Presentation Title</span>
@@ -219,6 +251,7 @@
                       </label>
                       <input type="text" id="talkTitle" name="abstract_title" />
                     </div>
+
                     <div class="form-group">
                       <label for="talkAffiliation">
                         <span data-i18n="labelTalkAffiliation">Presentation Affiliation (Lab / Unit)</span>
@@ -226,15 +259,16 @@
                       </label>
                       <input type="text" id="talkAffiliation" name="abstract_affiliation" />
                     </div>
+
                     <div class="form-group">
                       <label for="abstractText">
-                        <span data-i18n="labelAbstractText">Abstract (max 500 characters)</span>
+                        <span data-i18n="labelAbstractText">Abstract (max 800 characters)</span>
                         <span class="req">*</span>
                       </label>
-                      <textarea id="abstractText" name="abstract_content" rows="4" maxlength="500"></textarea>
+                      <textarea id="abstractText" name="abstract_content" rows="6"></textarea>
                       <div class="char-counter">
                         <span id="charCount">0</span>
-                        / 500
+                        / 800
                         <span data-i18n="charCounterLabel">characters</span>
                       </div>
                     </div>
@@ -310,6 +344,10 @@
       const abstractText = document.getElementById("abstractText");
       const charCount = document.getElementById("charCount");
 
+      const formatOral = document.getElementById("formatOral");
+      const formatPoster = document.getElementById("formatPoster");
+      const formatError = document.getElementById("formatError");
+
       if (wantsAbstract) {
         wantsAbstract.addEventListener("change", () => {
           if (wantsAbstract.checked) {
@@ -326,19 +364,50 @@
             talkAffiliation.value = "";
             abstractText.value = "";
             charCount.innerText = "0";
+            if (formatOral) formatOral.checked = false;
+            if (formatPoster) formatPoster.checked = false;
+            if (formatError) formatError.style.display = "none";
           }
         });
       }
 
       if (abstractText) {
         abstractText.addEventListener("input", () => {
-          charCount.innerText = abstractText.value.length;
+          // Count all characters except whitespace (spaces, tabs, newlines)
+          const nonSpaceCount = abstractText.value.replace(/\s/g, "").length;
+
+          if (nonSpaceCount > 800) {
+            // Prevent entering more than 800 non-space characters
+            let trimmed = "";
+            let count = 0;
+            for (const char of abstractText.value) {
+              if (!/\s/.test(char)) {
+                if (count >= 800) break;
+                count++;
+              }
+              trimmed += char;
+            }
+            abstractText.value = trimmed;
+            charCount.innerText = "800";
+          } else {
+            charCount.innerText = nonSpaceCount;
+          }
         });
       }
 
       if (form) {
         form.addEventListener("submit", async (e) => {
           e.preventDefault();
+
+          if (wantsAbstract && wantsAbstract.checked) {
+            if (!formatOral.checked && !formatPoster.checked) {
+              formatError.style.display = "block";
+              formatOral.focus();
+              return; // stop form submission
+            } else {
+              formatError.style.display = "none";
+            }
+          }
           const isFr = document.documentElement.lang === "fr";
           submitBtn.disabled = true;
           submitBtn.innerText = isFr
