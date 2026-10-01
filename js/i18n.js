@@ -87,7 +87,7 @@ const translations = {
     seeFullProgramme: "See the detailed programme →",
     topicLabel: "Presentation topic:",
     speaker1Topic: "No topic yet",
-    speaker2Topic: "No topic yet",
+    speaker2Topic: "Scaling Sequence Analysis to Millions of Bacterial Genomes",
     speaker1Bio: "Head of the Computational Biology research group at the Max Planck Institute for Multidisciplinary Sciences. Pioneer in sequence comparison, homology detection and protein structure prediction (HHblits, HHpred, MMseqs2).",
     speaker2Bio: "CNRS researcher in the Bonsai bioinformatics team at CRIStAL, Université de Lille. Specialist in high-throughput sequencing data algorithms, k-mer indexing and compact data structures for genomics.",
     
@@ -303,7 +303,7 @@ const translations = {
     seeFullProgramme: "Voir le programme détaillé →",
     topicLabel: "Sujet de l'intervention :",
     speaker1Topic: "No topic yet",
-    speaker2Topic: "No topic yet",
+    speaker2Topic: "Scaling Sequence Analysis to Millions of Bacterial Genomes",
     speaker1Bio: "Responsable du groupe de recherche en biologie computationnelle au Max Planck Institute for Multidisciplinary Sciences. Pionnier dans l'analyse de séquences de protéines, la détection d'homologie et la prédiction de structures (HHblits, HHpred, MMseqs2).",
     speaker2Bio: "Chargé de recherche CNRS au sein de l'équipe de bioinformatique Bonsai au CRIStAL, Université de Lille. Spécialiste des algorithmes pour le séquençage à haut débit, de l'indexation de k-mers et des structures de données compactes pour la génomique.",
     progInvited: "Invitations d'intervenants",

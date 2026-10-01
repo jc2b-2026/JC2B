@@ -820,8 +820,8 @@ textarea:focus {
 }
 
 .topic-title {
-  color: var(--muted);
-  font-style: italic;
+  color: var(--navy);
+  font-style: bold;
 }
 
 .speaker-bio {
