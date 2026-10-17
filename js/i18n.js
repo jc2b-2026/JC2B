@@ -15,7 +15,7 @@ const translations = {
     homeLead: "Organised by students from the Master 2 BIBS-IA programme at Université Paris-Saclay, JC2B brings together students and researchers to share their work in bioinformatics, biostatistics and artificial intelligence.",
     
     discoverScope: "Explore the scientific scope",
-    registerlabel: "Registration is open until October 18 at 11:59 p.m.",
+    registerlabel: "Registration is open until October 21 at 11:59 p.m.",
     
     snapshotLabel: "Conference snapshot",
     snapshotDate: "Date",
@@ -243,7 +243,7 @@ const translations = {
     
     homeLead: "Organisée par les étudiants du Master 2 BIBS-IA de l’Université Paris-Saclay, la JC2B réunit étudiants et chercheurs pour partager leurs travaux en bioinformatique, biostatistiques et intelligence artificielle.",
     discoverScope: "Découvrir les thématiques scientifiques",
-    registerlabel: "Inscription ouverte jusqu'au 18 octobre à 23h59",
+    registerlabel: "Inscription ouverte jusqu'au 21 octobre à 23h59",
     
     snapshotLabel: "La conférence en bref",
     snapshotDate: "Date",
