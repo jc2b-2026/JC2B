@@ -167,7 +167,7 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (EN)
     noticeCapTitle: "Capacity Limit: 199 Attendees",
-    registrationdeadline: "Registration deadline : 18 October 2026, 11:59 p.m.",
+    registrationdeadline: "Registration deadline : 21 October 2026, 11:59 p.m.",
     registrationdeadlinetext: "Don't forget to register before that date so you can attend the conference.",
     noticeCapText: "Due to auditorium safety regulations, in-person attendance is strictly limited to 199 participants on a first-come, first-served basis.",
     formSection1: "1. Personal Details",
@@ -387,7 +387,7 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (FR)
     noticeCapTitle: "Capacité d'accueil : 199 places",
-    registrationdeadline: "Date limite d'inscription : 18 Octobre 2026, 23h59",
+    registrationdeadline: "Date limite d'inscription : 21 Octobre 2026, 23h59",
     registrationdeadlinetext: "N'oubliez pas de vous inscrire avant cette date pour pouvoir participer à la conférence.",
     noticeCapText: "Pour des raisons de sécurité dans l'amphithéâtre, les inscriptions sont strictement limitées aux 199 premiers inscrits selon le principe du premier arrivé, premier servi.",
     formSection1: "1. Informations personnelles",
