@@ -107,7 +107,10 @@ const translations = {
     dateRegistrationDeadline: "Registration deadline",
     dateConference: "Conference day",
     tba: "To be announced",
-    
+    valDateRegistration: "21 September 2026",
+    valDateSubmission: "21 October 2026",
+    valDateRegistrationDeadline: "25 October 2026",
+    valDateConference: "12 November 2026",
     abstractsEyebrow: "Abstracts & contributions",
     abstractsTitle: "Share your research at JC2B",
     abstractsLead: "Would you like to present your work? Tick the abstract submission box in the registration form, then add your presentation title, affiliation and abstract.",
@@ -167,7 +170,7 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (EN)
     noticeCapTitle: "Capacity Limit: 199 Attendees",
-    registrationdeadline: "Registration deadline : 21 October 2026, 11:59 p.m.",
+    registrationdeadline: "Registration deadline : 25 October 2026, 11:59 p.m.",
     registrationdeadlinetext: "Don't forget to register before that date so you can attend the conference.",
     noticeCapText: "Due to auditorium safety regulations, in-person attendance is strictly limited to 199 participants on a first-come, first-served basis.",
     formSection1: "1. Personal Details",
@@ -224,7 +227,11 @@ const translations = {
     labelFormatPreference: "Preferred Presentation Format",
     formatOralLabel: "Oral Presentation",
     formatPosterLabel: "Poster Presentation",
-    formatErrorMsg: "Please select at least one format (oral, poster, or both)."
+    formatErrorMsg: "Please select at least one format (oral, poster, or both).",
+    abstractClosedTitle: "Call for Abstracts Closed",
+    abstractClosedText: "The deadline for submitting abstracts has passed. General registration to attend the conference remains open.",
+    noticeAbstractClosedTitle: "Call for Abstracts is Closed",
+    noticeAbstractClosedText: "The deadline to submit abstracts for oral talks and posters has passed. General registration to attend remains open.",
   },
   fr: {
     navHome: "Accueil",
@@ -331,6 +338,10 @@ const translations = {
     dateRegistrationDeadline: "Date limite d'inscription",
     dateConference: "Jour de la conférence",
     tba: "À venir",
+    valDateRegistration: "21 septembre 2026",
+    valDateSubmission: "21 octobre 2026",
+    valDateRegistrationDeadline: "25 octobre 2026",
+    valDateConference: "12 novembre 2026",
     abstractsEyebrow: "Résumés & contributions",
     abstractsTitle: "Présentez vos travaux à la JC2B 2026",
     abstractsLead: "Vous souhaitez présenter vos travaux ? Cochez la case de soumission d’un résumé dans le formulaire d’inscription, puis renseignez le titre de votre présentation, votre affiliation et votre résumé.",
@@ -387,7 +398,7 @@ const translations = {
     footerHost: "Junior Conference on Computational Biology",
     // Form Translations (FR)
     noticeCapTitle: "Capacité d'accueil : 199 places",
-    registrationdeadline: "Date limite d'inscription : 21 Octobre 2026, 23h59",
+    registrationdeadline: "Date limite d'inscription : 25 Octobre 2026, 23h59",
     registrationdeadlinetext: "N'oubliez pas de vous inscrire avant cette date pour pouvoir participer à la conférence.",
     noticeCapText: "Pour des raisons de sécurité dans l'amphithéâtre, les inscriptions sont strictement limitées aux 199 premiers inscrits selon le principe du premier arrivé, premier servi.",
     formSection1: "1. Informations personnelles",
@@ -444,7 +455,11 @@ const translations = {
     labelFormatPreference: "Format de présentation souhaité",
     formatOralLabel: "Présentation orale",
     formatPosterLabel: "Poster",
-    formatErrorMsg: "Veuillez sélectionner au moins un format (orale, poster, ou les deux)."
+    formatErrorMsg: "Veuillez sélectionner au moins un format (orale, poster, ou les deux).",
+    abstractClosedTitle: "Appel à communications clôturé",
+    abstractClosedText: "La date limite pour soumettre un résumé est dépassée. Les inscriptions pour assister à la conférence restent ouvertes.",
+    noticeAbstractClosedTitle: "Appel à communications clôturé",
+    noticeAbstractClosedText: "La date limite pour soumettre un résumé est dépassée. Les inscriptions pour assister à la conférence restent ouvertes.",
   }
 };
 
