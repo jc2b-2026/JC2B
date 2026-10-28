@@ -15,7 +15,7 @@ const translations = {
     homeLead: "Organised by students from the Master 2 BIBS-IA programme at Université Paris-Saclay, JC2B brings together students and researchers to share their work in bioinformatics, biostatistics and artificial intelligence.",
     
     discoverScope: "Explore the scientific scope",
-    registerlabel: "Registration is open until October 21 at 11:59 p.m.",
+    registerlabel: "Registration for JC2B 2026",
     
     snapshotLabel: "Conference snapshot",
     snapshotDate: "Date",
@@ -77,6 +77,9 @@ const translations = {
     
     programmeEyebrow: "Programme",
     programmeTitle: "Speakers and programme",
+    fullProgrammeTitle: "Detailed scientific programme",
+    morningSession: "Morning session: Protein Folding and Evolution",
+    afternoonSession: "Afternoon session: GenOMIC Data Mining",
     programmeLead: "Discover our keynote speakers and the scientific programme for JC2B 2026.",
     
     speakersTitle: "Keynote speakers",
@@ -87,7 +90,7 @@ const translations = {
     speakerReferral: "Learn more about the speaker & topic →",
     seeFullProgramme: "See the detailed programme →",
     topicLabel: "Presentation topic:",
-    speaker1Topic: "No topic yet",
+    speaker1Topic: "Fast structure comparison with Foldseek2 and LoL-align and a toolbox for peptide-MHC complex modeling and binding prediction",
     speaker2Topic: "Scaling Sequence Analysis to Millions of Bacterial Genomes",
     speaker1Bio: "Head of the Computational Biology research group at the Max Planck Institute for Multidisciplinary Sciences. Pioneer in sequence comparison, homology detection and protein structure prediction (HHblits, HHpred, MMseqs2).",
     speaker2Bio: "CNRS researcher in the Bonsai bioinformatics team at CRIStAL, Université de Lille. Specialist in high-throughput sequencing data algorithms, k-mer indexing and compact data structures for genomics.",
@@ -168,10 +171,17 @@ const translations = {
     footerText: "Junior Conference on Computational Biology · Organised by students from Master 2 BIBS-IA · Université Paris-Saclay",
     footerPartner : "Our partners",
     footerHost: "Junior Conference on Computational Biology",
+
+    // sessions for index 
+    sessionsIntro: "Two scientific sessions",
+    morningLabel: "Morning session",
+    afternoonLabel: "Afternoon session",
+
+
     // Form Translations (EN)
     noticeCapTitle: "Capacity Limit: 199 Attendees",
-    registrationdeadline: "Registration deadline : 25 October 2026, 11:59 p.m.",
-    registrationdeadlinetext: "Don't forget to register before that date so you can attend the conference.",
+    registrationdeadline: "Conference registration",
+    registrationdeadlinetext: "Registration to attend JC2B 2026 is still open, subject to availability.",
     noticeCapText: "Due to auditorium safety regulations, in-person attendance is strictly limited to 199 participants on a first-come, first-served basis.",
     formSection1: "1. Personal Details",
     labelFullName: "Full Name",
@@ -250,7 +260,7 @@ const translations = {
     
     homeLead: "Organisée par les étudiants du Master 2 BIBS-IA de l’Université Paris-Saclay, la JC2B réunit étudiants et chercheurs pour partager leurs travaux en bioinformatique, biostatistiques et intelligence artificielle.",
     discoverScope: "Découvrir les thématiques scientifiques",
-    registerlabel: "Inscription ouverte jusqu'au 21 octobre à 23h59",
+    registerlabel: "Inscriptions à la JC2B 2026",
     
     snapshotLabel: "La conférence en bref",
     snapshotDate: "Date",
@@ -309,6 +319,9 @@ const translations = {
     programmeEyebrow: "Programme",
     
     programmeTitle: "Intervenants et programme",
+    fullProgrammeTitle: "Programme scientifique détaillé",
+    morningSession: "Session du matin : Protein Folding and Evolution",
+    afternoonSession: "Session de l'après-midi : GenOMIC Data Mining",
     programmeLead: "Découvrez nos invités d'honneur et le programme scientifique de la JC2B 2026.",
     speakersTitle: "Invités d'honneur",
     speaker1Name: "Prof. Dr. Johannes Söding",
@@ -318,7 +331,7 @@ const translations = {
     speakerReferral: "En savoir plus sur l'intervenant et sa présentation →",
     seeFullProgramme: "Voir le programme détaillé →",
     topicLabel: "Sujet de l'intervention :",
-    speaker1Topic: "No topic yet",
+    speaker1Topic: "Fast structure comparison with Foldseek2 and LoL-align and a toolbox for peptide-MHC complex modeling and binding prediction",
     speaker2Topic: "Scaling Sequence Analysis to Millions of Bacterial Genomes",
     speaker1Bio: "Responsable du groupe de recherche en biologie computationnelle au Max Planck Institute for Multidisciplinary Sciences. Pionnier dans l'analyse de séquences de protéines, la détection d'homologie et la prédiction de structures (HHblits, HHpred, MMseqs2).",
     speaker2Bio: "Chargé de recherche CNRS au sein de l'équipe de bioinformatique Bonsai au CRIStAL, Université de Lille. Spécialiste des algorithmes pour le séquençage à haut débit, de l'indexation de k-mers et des structures de données compactes pour la génomique.",
@@ -396,10 +409,16 @@ const translations = {
     footerText: "Junior Conference on Computational Biology · Organisée par les étudiants du Master 2 BIBS-IA · Université Paris-Saclay.",
     footerPartner : "Nos partenaires",
     footerHost: "Junior Conference on Computational Biology",
+
+    // sessions for index 
+    sessionsIntro: "Deux sessions scientifiques",
+    morningLabel: "Session du matin",
+    afternoonLabel: "Session de l'après-midi",
+
     // Form Translations (FR)
     noticeCapTitle: "Capacité d'accueil : 199 places",
-    registrationdeadline: "Date limite d'inscription : 25 Octobre 2026, 23h59",
-    registrationdeadlinetext: "N'oubliez pas de vous inscrire avant cette date pour pouvoir participer à la conférence.",
+    registrationdeadline: "Inscription à la conférence",
+    registrationdeadlinetext: "Les inscriptions à la JC2B 2026 restent ouvertes, dans la limite des places disponibles.",
     noticeCapText: "Pour des raisons de sécurité dans l'amphithéâtre, les inscriptions sont strictement limitées aux 199 premiers inscrits selon le principe du premier arrivé, premier servi.",
     formSection1: "1. Informations personnelles",
     labelFullName: "Nom et Prénom",
