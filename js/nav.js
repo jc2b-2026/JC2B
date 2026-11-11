@@ -5,7 +5,7 @@
     ["home", "index.html", "navHome", "Home"],
     ["about", "about.html", "navAbout", "About"],
     ["programme", "programme.html", "navProgramme", "Programme"],
-    ["abstracts", "abstracts.html", "navAbstracts", "Abstracts"],
+    ["abstracts", "abstracts.html", "navAbstracts", "Book"],
     ["practical", "practical.html", "navPractical", "Practical info"],
     ["contact", "contact.html", "navContact", "Contact"]
   ];
@@ -87,7 +87,7 @@
           <a href="index.html" data-i18n="navHome">Home</a>
           <a href="about.html" data-i18n="navAbout">About</a>
           <a href="programme.html" data-i18n="navProgramme">Programme</a>
-          <a href="abstracts.html" data-i18n="navAbstracts">Abstracts</a>
+          <a href="abstracts.html" data-i18n="navAbstracts">Book</a>
         </div>
 
         <div class="footer-links">
