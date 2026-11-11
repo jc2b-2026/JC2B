@@ -49,6 +49,24 @@
     <script src="js/nav.js"></script>
     <script src="js/app.js"></script>
     <script src="js/i18n.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script>
+      if (window.innerWidth <= 980 || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        const viewer = document.querySelector(".book-viewer");
+        viewer.innerHTML = "";
+        pdfjsLib.getDocument("data/book.pdf").promise.then(async (pdf) => {
+          for (let i = 1; i <= pdf.numPages; i++) {
+            const page = await pdf.getPage(i);
+            const viewport = page.getViewport({ scale: 1.5 });
+            const canvas = document.createElement("canvas");
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+            viewer.appendChild(canvas);
+            page.render({ canvasContext: canvas.getContext("2d"), viewport });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
 

@@ -1177,3 +1177,8 @@ textarea:focus {
   border: 0;
 }
 
+@media (max-width: 980px) {
+  .book-viewer { max-height: 80vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .book-viewer canvas { display: block; width: 100%; height: auto; border-bottom: 1px solid var(--line); }
+}
+
