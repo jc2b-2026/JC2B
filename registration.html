@@ -64,17 +64,20 @@
           </div>
 
           <!-- Registration Deadline Notice -->
+          <!--
           <div class="notice-card" style="margin-bottom: 2rem">
             <div class="notice-icon">⚠️</div>
             <div class="notice-body">
-              <h2 data-i18n="registrationdeadline">Registration deadline : 25 October 2026, 23:59 p.m.</h2>
+              <h2 data-i18n="registrationdeadline">Registration deadline: 25 October 2026, 23:59 p.m.</h2>
               <p data-i18n="registrationdeadlinetext">
                 Don't forget to register before the deadline to guarantee your participation
               </p>
             </div>
           </div>
+          -->
           
           <!-- Attendance Notice -->
+          <!--
           <div class="notice-card" style="margin-bottom: 2rem">
             <div class="notice-icon">⚠️</div>
             <div class="notice-body">
@@ -85,20 +88,53 @@
               </p>
             </div>
           </div>
+          -->
 
+          <!-- Registration Closed Notice -->
+          <div class="notice-card" style="margin-bottom: 2rem">
+            <div class="notice-icon">🛑</div>
+            <div class="notice-body">
+              <h2 data-i18n="noticeRegClosedTitle">Registrations are Closed</h2>
+              <p data-i18n="noticeRegClosedText">
+                The registration deadline has passed and registrations are now officially closed.
+              </p>
+            </div>
+          </div>
+          
+          <div class="form-shell">
+            <div class="form-shell-header">
+              <h2 data-i18n="formTitleClosed">Registration Status</h2>
+            </div>
+
+            <div class="form-wrapper" style="border: none; box-shadow: none; text-align: center; padding: 3rem 1.5rem;">
+              <div style="max-width: 540px; margin: 0 auto;">
+                <p style="font-size: 1.15rem; font-weight: 600; margin-bottom: 0.75rem;" data-i18n="regClosedHeading">
+                  Registrations for JC2B 2026 are now closed.
+                </p>
+                <p style="color: var(--muted, #666); line-height: 1.6; margin-bottom: 1.5rem;" data-i18n="regClosedBody">
+                  Thank you for your interest! For any questions regarding your registration or participation, please contact the organising committee.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!--
           <div class="form-shell">
             <div class="form-shell-header">
               <h2 data-i18n="formTitle">Registration Form</h2>
             </div>
-
+            -->
             <!-- Custom HTML Form -->
+            <!--
             <div class="form-wrapper" style="border: none; box-shadow: none">
               <form
                 id="registration-form"
                 action="https://script.google.com/macros/s/AKfycbzlIW0qigZwTNQg7JdAI_xnHXofsQj2mszOenhGt9zVaQgp6RKy7JsM7SdpL9ehFza0cg/exec"
                 method="POST"
               >
+              -->
                 <!-- 1. Personal Details -->
+                <!--
                 <fieldset class="form-section">
                   <legend data-i18n="formSection1">1. Personal Details</legend>
                   <div class="form-group">
@@ -119,8 +155,9 @@
                     </small>
                   </div>
                 </fieldset>
-
+                -->
                 <!-- 2. Demographic & Academic Information -->
+                <!--
                 <fieldset class="form-section">
                   <legend data-i18n="formSection2">2. Demographic & Academic Information</legend>
                   <div class="info-callout">
@@ -213,8 +250,9 @@
                     </select>
                   </div>
                 </fieldset>
-
+                -->
                 <!-- 3. Abstract Submission (Closed) -->
+                <!--
                 <fieldset class="form-section">
                   <legend data-i18n="formSection3">3. Call for Abstracts</legend>
                   
@@ -230,8 +268,9 @@
                     </div>
                   </div>
                 </fieldset>
-
+                -->
                 <!-- 4. Internship Opportunities -->
+                <!--
                 <fieldset class="form-section">
                   <legend data-i18n="formSection4">4. Internship Opportunities</legend>
                   <div class="checkbox-group">
@@ -248,8 +287,9 @@
                     </div>
                   </div>
                 </fieldset>
-
+                -->
                 <!-- 5. Commitment & Confirmation -->
+                <!--
                 <fieldset class="form-section">
                   <legend data-i18n="formSection5">5. Commitment & Confirmation</legend>
                   <div class="checkbox-group">
@@ -275,6 +315,7 @@
               <div id="form-feedback" class="feedback-banner hidden" role="alert" style="margin-top: 1.5rem"></div>
             </div>
           </div>
+          -->
         </div>
       </section>
     </main>
@@ -292,7 +333,7 @@
       const form = document.getElementById("registration-form");
       const feedback = document.getElementById("form-feedback");
       const submitBtn = document.getElementById("submit-btn");
-
+      /*
       if (form) {
         form.addEventListener("submit", async (e) => {
           e.preventDefault();
@@ -370,6 +411,7 @@
           }
         });
       }
+      */
     </script>
   </body>
 </html>

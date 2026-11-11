@@ -177,7 +177,6 @@ const translations = {
     morningLabel: "Morning session",
     afternoonLabel: "Afternoon session",
 
-
     // Form Translations (EN)
     noticeCapTitle: "Capacity Limit: 199 Attendees",
     registrationdeadline: "Conference registration",
@@ -242,6 +241,12 @@ const translations = {
     abstractClosedText: "The deadline for submitting abstracts has passed. General registration to attend the conference remains open.",
     noticeAbstractClosedTitle: "Call for Abstracts is Closed",
     noticeAbstractClosedText: "The deadline to submit abstracts for oral talks and posters has passed. General registration to attend remains open.",
+
+    noticeRegClosedTitle: "Registrations are Closed",
+    noticeRegClosedText: "The registration deadline has passed and registrations are now officially closed.",
+    formTitleClosed: "Registration Status",
+    regClosedHeading: "Registrations for JC2B 2026 are now closed.",
+    regClosedBody: "Thank you for your interest! For any questions regarding your registration or participation, please contact the organising committee."
   },
   fr: {
     navHome: "Accueil",
@@ -479,6 +484,12 @@ const translations = {
     abstractClosedText: "La date limite pour soumettre un résumé est dépassée. Les inscriptions pour assister à la conférence restent ouvertes.",
     noticeAbstractClosedTitle: "Appel à communications clôturé",
     noticeAbstractClosedText: "La date limite pour soumettre un résumé est dépassée. Les inscriptions pour assister à la conférence restent ouvertes.",
+
+    noticeRegClosedTitle: "Inscriptions clôturées",
+    noticeRegClosedText: "La date limite est dépassée et les inscriptions sont désormais closes.",
+    formTitleClosed: "Statut des inscriptions",
+    regClosedHeading: "Les inscriptions pour la JC2B 2026 sont closes.",
+    regClosedBody: "Merci pour votre intérêt ! Pour toute question concernant votre inscription ou votre participation, veuillez contacter le comité d'organisation."
   }
 };
 
