@@ -1177,8 +1177,14 @@ textarea:focus {
   border: 0;
 }
 
+.book-viewer canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid var(--line);
+}
+
 @media (max-width: 980px) {
-  .book-viewer { max-height: 80vh; overflow-y: auto; -webkit-overflow-scrolling: touch; }
-  .book-viewer canvas { display: block; width: 100%; height: auto; border-bottom: 1px solid var(--line); }
+  .book-viewer { max-height: 80vh; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
 }
 
